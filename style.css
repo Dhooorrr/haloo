@@ -32,6 +32,24 @@ a {color:white;text-decoration: none;transition: all 0.3s ease-in-out;&:hover, &
 #judulakhir{z-index:100;font-size:24px;font-family:var(--gaya-font3);transition:all .5s ease}
 #teksnimasi, #kalimatakhir, #palingakhir{z-index:100;margin-right:auto;margin-left:auto;font-size:14px;font-family:var(--gaya-font2);}
 #teksnimasi{text-align:left;margin-left:70px;margin-right:70px;}
+#teksnimasi {
+    text-align: left;
+    margin-left: 10px; /* Adjust margins for better fit */
+    margin-right: 10px; /* Adjust margins for better fit */
+    font-size: 4vw; /* Responsive font size */
+}
+
+@media (max-width: 600px) {
+    #teksnimasi {
+        font-size: 3.5vw; /* Smaller font size for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    #teksnimasi {
+        font-size: 3vw; /* Even smaller font size for very small screens */
+    }
+}
 .tipeA{font-family:var(--gaya-font);}
 
 svg{vertical-align: middle;width: 22px;height: 22px;fill: #fff}
